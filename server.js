@@ -55,7 +55,7 @@ app.use((err, req, res, next) => {
 // Start server
 app.listen(PORT, () => {
     console.log(`
-    ╔════════════════════════════════════════════╗
+    ╔════════════════════════════════════════════════╗
     ║    🍬 Candy Crush - Telegram Mini App 🍬      ║
     ║                                                ║
     ║    Server running on:                          ║
@@ -63,7 +63,7 @@ app.listen(PORT, () => {
     ║                                                ║
     ║    Open in Telegram Mini App:                  ║
     ║    https://t.me/your_bot_username?start=game   ║
-    ╚════════════════════════════════════════════╝
+    ╚════════════════════════════════════════════════╝
     `);
 });
 
